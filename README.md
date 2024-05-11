@@ -1,2 +1,2 @@
 # site-android
- Construção de um site utilizando recursos básicos de HTML5 e CSS3
+ Site feito através de exercício proposto pelo professor Gustavo Guanabara do curso em vídeo.
