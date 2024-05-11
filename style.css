@@ -1,0 +1,246 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'android';
+    src: url(fontes/idroid.otf);
+}
+
+
+.sombreado{
+    color: var(--cor5);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.445);
+    font-weight: bold;
+}
+
+.link{
+    color: white;
+    
+}
+
+a:hover.link{
+    background-color: white;
+    color: black;
+}
+
+.centralizar{
+    margin: auto;
+    display: block;
+    max-width: 200px;
+}
+
+:root{
+    --cor1: #c5Ebd6;
+    --cor2:  #83e1ad;
+    --cor3: #3ddc84;
+    --cor4: #2fa866;
+    --cor5: #063d1e;
+    --fonte1: 'android', sans-serif;
+    --fonte2: 'Bebas Neue', 'cursive';
+    --fonte3: Arial, Helvetica, sans-serif;
+    --sombra: 2px 2px 5px rgba(0, 0, 0, 0.445);
+}
+
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #83e1ad;
+}
+
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.400);
+    border-radius: 0px 0px 5px 5px;
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+
+p{
+    font: normal none 1.5em var(--fonte3);
+    color: white;
+    text-indent: 15px;
+    line-height: 1.5em;
+}
+
+
+ header{
+   background-image: linear-gradient(to bottom, var(--cor4), var(--cor5));
+}
+
+nav{
+    background-color: var(--cor5);
+    padding-bottom: 5px;
+    padding-left: 20px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.212);
+}
+
+
+img{
+    width: 100%;
+}
+
+div{
+    position: relative;
+    background-color: var(--cor5);
+    padding-bottom: 45%;
+    margin: 10px -20px;
+}
+
+iframe{
+    position: absolute;
+    top: 11%;
+    left: 18%;
+    width: 65%;
+    height: 79%;
+}
+
+footer{
+    font-size: 0.8em;
+    font-weight: bolder;
+    text-align: center;
+    width: 100%;
+    background-color: var(--cor5);
+
+}
+
+aside{
+    background-color: var(--cor2);
+    padding: 10px;
+    border-radius: 4px;
+}
+
+aside > h3{
+    background-color: var(--cor4);
+    border-radius: 4px 4px 0px 0px;
+    padding: 10px;
+    margin: -10px -10px 0 -10px;
+}
+
+aside > p{
+    color: black;
+    padding-top: 15px;
+
+}
+
+aside > ol{
+    list-style-type: '\2714\0020\0020';
+    list-style-position: inside;
+    columns: 2;
+    color: black;
+    padding-top: 10px;
+}
+
+a{
+    color:var(--cor5);
+    font-weight: bolder;
+    text-decoration: none;
+    text-shadow: var(--sombra);  
+}
+
+a.externo::after{
+    content: '\1F517';
+}
+
+a:hover{
+    background-color: var(--cor5);
+    color: white;
+}
+
+header > h1{
+    font: normal bolder 3em var(--fonte2);
+    text-align: center;
+    color: white;
+    text-shadow: var(--sombra);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+header > p{
+    text-align: center;
+    text-shadow: var(--sombra);
+    font-size: 1.2em;
+    padding-bottom: 15px;
+    max-width: 600px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: auto;
+}
+
+nav > a{
+    text-decoration: none;
+    font: normal lighter 1em var(--fonte2);
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 15px;
+    margin-left: 10px;
+}
+
+nav > a:hover{
+    background-color: var(--cor1);
+    transition: 0.7s;
+    border-radius: 5px;
+}
+
+footer > a{
+    color: white;
+}
+
+footer > a:hover{
+    color: white;
+    background-color: white;
+}
+
+article > h1{
+    font: normal bold 2em var(--fonte1);
+    color: var(--cor5);
+    text-shadow: var(--sombra); 
+    text-align: center;
+}
+
+article > p{
+    color: black;
+    font-size: 1.2em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+article > h2 {
+    color: #063d1e;
+    background-image: linear-gradient(to right, var(--cor2), transparent);
+    font: normal bold 1.5em var(--fonte1);
+    text-shadow: var(--sombra);
+    border-radius: 10px 0px 0px 10px;
+    margin: auto;
+    padding-right: 9px;
+    padding-left: 9px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+div > ol{
+    list-style-type: '\2714\0020\0020';
+    columns: 2;
+    list-style-position: inside;
+    padding: 5%;
+    
+}
+
+
